@@ -15,8 +15,9 @@ def clock(device, deviceId, seconds):
         device.letter(deviceId, 6, int(hour / 10)) # Tens
         device.letter(deviceId, 5, hour % 10, dot) # Ones
         # Set minutes
-        device.letter(deviceId, 4, int(minute / 10)) # Tens
-        device.letter(deviceId, 3, minute % 10) # Ones
+        device.letter(deviceId, 4, "-")
+        device.letter(deviceId, 3, int(minute / 10)) # Tens
+        device.letter(deviceId, 2, minute % 10, dot) # Ones
         # Set SECONDS
         #        device.letter(deviceId, 2, int(second / 10)) # Tens
         #        device.letter(deviceId, 1, second % 10) # Ones
