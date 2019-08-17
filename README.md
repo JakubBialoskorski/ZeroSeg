@@ -1,6 +1,6 @@
 ## ZeroSeg
 
-Various python scripts for the 8-digits display.
+Various python scripts for the 8-digits display. Install required module with ```sudo python setup.py install``` .
 
 You have to adjust market ticker(s), API key and number of your stocks inside the files.
 
