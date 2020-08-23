@@ -24,7 +24,4 @@ def stock():
         output_filtered = output[:6]
         device.write_text(1, " " + output_filtered)
 
-while True:
-    stock()
-    time.sleep(300)
-    device.show_message("UPDATE")
+stock()
