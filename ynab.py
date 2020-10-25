@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import requests, os, time, requests, json, urllib
+import os, time, requests, json, urllib
 import ZeroSeg.led as led
 from datetime import datetime
 
