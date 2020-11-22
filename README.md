@@ -1,5 +1,7 @@
 ## ZeroSeg
 
+[![Known Vulnerabilities](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg?targetFile=requirements.txt)
+
 Various python scripts for the 8-digits display. 
 
 Install required module with ```sudo python setup.py install``` and then ```pip install -r requirements.txt``` . SPI needs to be manually enabled by running ```sudo raspi-config``` --> Interfacing Options.
