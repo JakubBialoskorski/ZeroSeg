@@ -9,8 +9,8 @@ device.clear()
 level = 1
 device.brightness(level)
 
-SELECTED_CATEGORY = os.environ.get("SELECTED_CATEGORY", "MAIN_CATEGORY") # for example: Big expenses
-SELECTED_SUBCATEGORY = os.environ.get("SELECTED_SUBCATEGORY", "SUBCATEGORY_UNDER_MAIN_CATEGORY") # for example: Own House
+SELECTED_CATEGORY = os.environ.get("SELECTED_CATEGORY", "PUT_MAIN_CATEGORY_HERE") # for example: Big expenses
+SELECTED_SUBCATEGORY = os.environ.get("SELECTED_SUBCATEGORY", "PUT_SUBCATEGORY_UNDER_MAIN_CATEGORY_HERE") # for example: Own House
 
 def get_all_category_data():
     headers = {'Authorization': 'Bearer DEVELOPER_TOKEN_HERE'}
