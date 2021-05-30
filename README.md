@@ -1,4 +1,4 @@
-## ZeroSeg
+# ZeroSeg
 
 [![Known Vulnerabilities](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg?targetFile=requirements.txt)
 
