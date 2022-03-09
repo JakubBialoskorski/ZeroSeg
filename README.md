@@ -16,6 +16,8 @@ You have to adjust market ticker(s) /  API key / developer token / number of you
 
 ```ynab.py``` - display balance of selected YNAB category
 
+```bitcoin.py``` - checks the current Bitcoin value in $US via Coindesk API (you may need to run `sudo apt-get install haveged` if the device is headless)
+
 For crons you can use expression like:
 
 `*/10 * * * * python PATH/script.py`
