@@ -6,7 +6,6 @@ from datetime import datetime
 
 device = led.sevensegment(cascaded=2)
 device.clear()
-
 level = 1
 device.brightness(level)
 
