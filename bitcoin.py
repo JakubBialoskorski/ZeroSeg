@@ -4,7 +4,6 @@ import ZeroSeg.led as led
 
 device = led.sevensegment(cascaded=2)
 device.clear()
-
 level = 1
 device.brightness(level)
 
