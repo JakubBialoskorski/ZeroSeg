@@ -10,4 +10,4 @@ device.brightness(level)
 
 k = krakenex.API()
 k.load_key('kraken.key')
-print(k.query_private('Balance')["result"]["ZEUR"])
+device.write_text(1, k.query_private('Balance')["result"]["ZEUR"])
