@@ -18,7 +18,7 @@ You have to adjust market ticker(s) /  API key / developer token / number of you
 
 ```bitcoin.py``` - checks the current Bitcoin value in $US via Coindesk API (you may need to run `sudo apt-get install haveged` if the device is headless)
 
-```kraken.py``` - checks Kraken account balance in Euro
+```kraken.py``` - checks Kraken account balance in USDT
 
 For crons you can use expression like:
 
