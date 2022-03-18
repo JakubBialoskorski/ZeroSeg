@@ -1,3 +1,5 @@
 requests
 alpha_vantage
 spidev
+python-binance
+krakenex
