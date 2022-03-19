@@ -4,7 +4,11 @@
 
 Various python scripts for the 8-digits display. 
 
-Install required module with ```sudo python setup.py install``` and then ```pip install -r requirements.txt``` . SPI needs to be manually enabled by running ```sudo raspi-config``` --> Interfacing Options.
+Install required module with ```sudo python setup.py install``` and then ```pip install -r requirements.txt``` . 
+
+SPI interface needs to be manually enabled by running ```sudo raspi-config``` --> Interfacing Options.
+
+---
 
 You have to adjust market ticker(s) /  API key / developer token / number of your stocks inside the files.
 
