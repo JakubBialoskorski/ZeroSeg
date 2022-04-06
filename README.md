@@ -1,6 +1,6 @@
 # ZeroSeg
 
-[![Known Vulnerabilities](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg?targetFile=requirements.txt)
+[![Known Vulnerabilities](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg/badge.svg)](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg)
 
 Various python scripts for the 8-digits display. 
 
