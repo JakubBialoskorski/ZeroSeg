@@ -1,7 +1,5 @@
 # ZeroSeg
 
-[![Known Vulnerabilities](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg/badge.svg)](https://snyk.io/test/github/JakubBialoskorski/ZeroSeg)
-
 Various python scripts for the 8-digits display. 
 
 Install required module with ```sudo python setup.py install``` and then ```pip install -r requirements.txt``` . 
